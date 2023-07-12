@@ -1,6 +1,6 @@
-#CodeFirst
- -Install EntityFramework
- -Configuration App.config connectionString Database SQLSERVER 
- - Enable migrations command: enable-migrations
- -Add Migration  command: add-migration Create"Name migrations"
- -running migration command: Update-Database
+1. [x] #**CodeFirst ☺**  
+ - **Install EntityFramework**  
+ - **Configuration:** App.config connectionString Database SQLSERVER   
+ - _**Enable migrations command:**_ enable-migrations  
+- **_Add Migration command:_** add-migration Create"Name migrations"  
+- **_Running migration command:_** Update-Database
