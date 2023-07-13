@@ -1,9 +1,9 @@
-﻿using System;
-using DbFirst.Helpers;
+﻿using DbFirst.Helpers;
+using System;
 
 namespace DbFirst
 {
-    class Program
+    abstract class Program
     {
         public static void Main(string[] args)
         {
@@ -16,7 +16,7 @@ namespace DbFirst
             course.Level = Level.Beginner; //1
         }
 
-        
+
         private static void CallProcedure()
         {
             var dbContext = new PlutoDbContext();

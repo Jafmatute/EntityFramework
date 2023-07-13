@@ -6,7 +6,7 @@
     <edmx:Diagrams>
       <Diagram DiagramId="7d3156c5e88543d9a56557f913830aa8" Name="Diagram1">
         <EntityTypeShape EntityType="PlutoModel.Author" Width="1.5" PointX="0.5" PointY="2.25" IsExpanded="false" />
-        <EntityTypeShape EntityType="PlutoModel.Course" Width="1.5" PointX="2.625" PointY="2.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="PlutoModel.Course" Width="1.5" PointX="2.625" PointY="2.25" IsExpanded="false" />
         <EntityTypeShape EntityType="PlutoModel.CourseSection" Width="1.5" PointX="5.25" PointY="0.625" IsExpanded="false" />
         <EntityTypeShape EntityType="PlutoModel.Post" Width="1.5" PointX="7.875" PointY="3.25" IsExpanded="false" />
         <EntityTypeShape EntityType="PlutoModel.Tag" Width="1.5" PointX="5.25" PointY="3.75" IsExpanded="false" />
