@@ -54,6 +54,9 @@
     <Compile Include="Course.cs">
       <DependentUpon>PlutoModel.tt</DependentUpon>
     </Compile>
+    <Compile Include="CourseLevel.cs">
+      <DependentUpon>PlutoModel.tt</DependentUpon>
+    </Compile>
     <Compile Include="CourseSection.cs">
       <DependentUpon>PlutoModel.tt</DependentUpon>
     </Compile>
@@ -63,6 +66,7 @@
     <Compile Include="GetCoursesResult.cs">
       <DependentUpon>PlutoModel.tt</DependentUpon>
     </Compile>
+    <Compile Include="Helpers\Level.cs" />
     <Compile Include="PlutoModel.Context.cs">
       <AutoGen>True</AutoGen>
       <DesignTime>True</DesignTime>
@@ -118,6 +122,7 @@
   <ItemGroup>
     <Service Include="{508349B6-6B84-4DF5-91F0-309BEEBAD82D}" />
   </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
          Other similar extension points exist, see Microsoft.Common.targets.

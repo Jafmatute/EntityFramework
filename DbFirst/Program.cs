@@ -1,4 +1,5 @@
 ﻿using System;
+using DbFirst.Helpers;
 
 namespace DbFirst
 {
@@ -9,6 +10,13 @@ namespace DbFirst
             CallProcedure();
         }
 
+        private static void CallLevelEnum()
+        {
+            var course = new Course();
+            course.Level = Level.Beginner; //1
+        }
+
+        
         private static void CallProcedure()
         {
             var dbContext = new PlutoDbContext();
