@@ -18,6 +18,8 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Exercises", "Exercises", "{
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DbFirst.Vidzy", "DbFirst.Vidzy\DbFirst.Vidzy.csproj", "{4FD9C04A-8A13-4B08-BC59-0E436F337866}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CodeFirst", "CodeFirst\CodeFirst.csproj", "{57BA8E88-1B4B-4123-B793-4E4380CC41B5}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -40,6 +42,10 @@ Global
 		{4FD9C04A-8A13-4B08-BC59-0E436F337866}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{4FD9C04A-8A13-4B08-BC59-0E436F337866}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{4FD9C04A-8A13-4B08-BC59-0E436F337866}.Release|Any CPU.Build.0 = Release|Any CPU
+		{57BA8E88-1B4B-4123-B793-4E4380CC41B5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{57BA8E88-1B4B-4123-B793-4E4380CC41B5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{57BA8E88-1B4B-4123-B793-4E4380CC41B5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{57BA8E88-1B4B-4123-B793-4E4380CC41B5}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
