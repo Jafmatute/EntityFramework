@@ -11,3 +11,6 @@
 4. InitialModel-IgnoreChanges -Force
 5. update-database
 
+1. [x] #**CodeFirst Reverte Migrations☺**
+2. update-database -TargetMigration:NombreMigracion
+
