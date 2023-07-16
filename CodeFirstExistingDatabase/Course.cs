@@ -26,7 +26,6 @@ namespace CodeFirstExistingDatabase
         public int? Author_Id { get; set; }
 
         public virtual Author Author { get; set; }
-        public Category Category { get; set; }
 
 
         [System.Diagnostics.CodeAnalysis.SuppressMessage("Microsoft.Usage", "CA2227:CollectionPropertiesShouldBeReadOnly")]
