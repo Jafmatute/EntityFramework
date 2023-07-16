@@ -1,9 +1,8 @@
+using System.Collections.Generic;
+
 namespace CodeFirstExistingDatabase.Migrations
 {
-    using System;
-    using System.Data.Entity;
     using System.Data.Entity.Migrations;
-    using System.Linq;
 
     internal sealed class Configuration : DbMigrationsConfiguration<CodeFirstExistingDatabase.PlutoContext>
     {
@@ -18,6 +17,15 @@ namespace CodeFirstExistingDatabase.Migrations
 
             //  You can use the DbSet<T>.AddOrUpdate() helper extension method 
             //  to avoid creating duplicate seed data.
+
+            context.Authors.AddOrUpdate(a => a.Name, new Author()
+            {
+                Name = "Fernando Herrera",
+                Courses = new List<Course>()
+                {
+                    new Course(){Name = "React de 0 a experto", Description = "React JS"}
+                }
+            });
         }
     }
 }
