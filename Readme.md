@@ -11,6 +11,15 @@
 4. InitialModel-IgnoreChanges -Force
 5. update-database
 
+
 1. [x] #**CodeFirst Reverte Migrations☺**
-2. update-database -TargetMigration:NombreMigracion
+update-database -TargetMigration:NombreMigracion
+
+
+1. [x] #**CodeFirst Generation of all migrations in sql format☺**  
+Update-­‐Database ­‐Script ­‐SourceMigration:0
+
+
+1. [x] #**CodeFirst To generate a specific migration use the following command☺**  
+Update-­‐Database ­‐Script ‐SourceMigration:Migr1 ‐TargetMigration:Migr2
 
