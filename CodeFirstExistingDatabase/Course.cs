@@ -16,6 +16,7 @@ namespace CodeFirstExistingDatabase
 
         public string Name { get; set; }
 
+        //[Required] --Data Annotations
         public string Description { get; set; }
 
 
