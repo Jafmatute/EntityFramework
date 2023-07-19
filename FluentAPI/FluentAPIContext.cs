@@ -1,4 +1,5 @@
-﻿using System.Data.Entity;
+﻿using FluentAPI.EntityConfigurations;
+using System.Data.Entity;
 
 namespace FluentAPI
 {
@@ -15,43 +16,7 @@ namespace FluentAPI
 
         protected override void OnModelCreating(DbModelBuilder modelBuilder)
         {
-            modelBuilder.Entity<Course>()
-                .Property(n => n.Name)
-                .IsRequired()
-                .HasMaxLength(255);
-
-            modelBuilder.Entity<Course>()
-                .Property(d => d.Description)
-                .IsRequired()
-                .HasMaxLength(200);
-
-            modelBuilder.Entity<Course>()
-                .HasRequired(c => c.Author)
-                .WithMany(a => a.Courses)
-                .HasForeignKey(c => c.AuthorId)
-                .WillCascadeOnDelete(false);
-
-            // modelBuilder.Entity<Course>()
-            //     .HasMany(c => c.Tags)
-            //     .WithMany(t => t.Courses)
-            //     .Map(m => m.ToTable("CourseTags"));
-
-            modelBuilder.Entity<Course>()
-                .HasMany(c => c.Tags)
-                .WithMany(t => t.Courses)
-                .Map(m =>
-                {
-                    m.ToTable("CourseTags");
-                    m.MapLeftKey("CourseId");
-                    m.MapRightKey("TagId");
-
-                });
-
-            modelBuilder.Entity<Course>()
-                .HasRequired(c => c.Cover)
-                .WithRequiredPrincipal(c => c.Course);
-
-            base.OnModelCreating(modelBuilder);
+            modelBuilder.Configurations.Add(new CourseConfiguration());
         }
     }
 }
