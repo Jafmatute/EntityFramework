@@ -30,6 +30,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DataAnnotations", "DataAnno
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FluentAPI", "FluentAPI\FluentAPI.csproj", "{4297251B-444C-4425-B173-AC804B2A8380}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Queries", "Queries\Queries.csproj", "{D1776DED-C59A-4F8A-8C31-96EAE15BDF5A}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -72,6 +74,10 @@ Global
 		{4297251B-444C-4425-B173-AC804B2A8380}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{4297251B-444C-4425-B173-AC804B2A8380}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{4297251B-444C-4425-B173-AC804B2A8380}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D1776DED-C59A-4F8A-8C31-96EAE15BDF5A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D1776DED-C59A-4F8A-8C31-96EAE15BDF5A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D1776DED-C59A-4F8A-8C31-96EAE15BDF5A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D1776DED-C59A-4F8A-8C31-96EAE15BDF5A}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -83,6 +89,7 @@ Global
 		{813AD356-94DD-4617-9721-3FB49D3D3827} = {04D8600C-2899-4F72-A2B1-053593D8A609}
 		{8744DDDC-8618-4CF8-A449-4D6E2AA96D3C} = {A4B7ED80-5DF5-47D8-A391-F556353A9AA5}
 		{4297251B-444C-4425-B173-AC804B2A8380} = {A4B7ED80-5DF5-47D8-A391-F556353A9AA5}
+		{D1776DED-C59A-4F8A-8C31-96EAE15BDF5A} = {A4B7ED80-5DF5-47D8-A391-F556353A9AA5}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {8BB43087-8CB0-4117-B726-BDAEDE4A7CE6}
