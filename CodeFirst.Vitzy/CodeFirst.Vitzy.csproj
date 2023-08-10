@@ -55,6 +55,9 @@
   <ItemGroup>
     <Compile Include="Classification.cs" />
     <Compile Include="CodeFirstVitzyContext.cs" />
+    <Compile Include="EntityConfigurations\GenreConfiguration.cs" />
+    <Compile Include="EntityConfigurations\TagConfiguration.cs" />
+    <Compile Include="EntityConfigurations\VideoConfiguration.cs" />
     <Compile Include="Genre.cs" />
     <Compile Include="Migrations\202307171431326_InitialModel.cs" />
     <Compile Include="Migrations\202307171431326_InitialModel.designer.cs">
@@ -72,9 +75,30 @@
     <Compile Include="Migrations\202307171508200_AddClassificationSilverGoldPlatinumFromVideoTable.designer.cs">
       <DependentUpon>202307171508200_AddClassificationSilverGoldPlatinumFromVideoTable.cs</DependentUpon>
     </Compile>
+    <Compile Include="Migrations\202308091518355_AlterColumnNameMaxLength255AndNotNuLLToVideoTable.cs" />
+    <Compile Include="Migrations\202308091518355_AlterColumnNameMaxLength255AndNotNuLLToVideoTable.designer.cs">
+      <DependentUpon>202308091518355_AlterColumnNameMaxLength255AndNotNuLLToVideoTable.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\202308092211076_AlterColumnGender_IdToGenderIdInVideoTable.cs" />
+    <Compile Include="Migrations\202308092211076_AlterColumnGender_IdToGenderIdInVideoTable.designer.cs">
+      <DependentUpon>202308092211076_AlterColumnGender_IdToGenderIdInVideoTable.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\202308092253234_RenameColumnClassificationToclassificationInVideoTable.cs" />
+    <Compile Include="Migrations\202308092253234_RenameColumnClassificationToclassificationInVideoTable.designer.cs">
+      <DependentUpon>202308092253234_RenameColumnClassificationToclassificationInVideoTable.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\202308100456324_AlterColumnNameMaxLength255AndNotNullToGenreTable.cs" />
+    <Compile Include="Migrations\202308100456324_AlterColumnNameMaxLength255AndNotNullToGenreTable.designer.cs">
+      <DependentUpon>202308100456324_AlterColumnNameMaxLength255AndNotNullToGenreTable.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\202308100504287_changeTypeClassificationIntToByteInVideoTable.cs" />
+    <Compile Include="Migrations\202308100504287_changeTypeClassificationIntToByteInVideoTable.designer.cs">
+      <DependentUpon>202308100504287_changeTypeClassificationIntToByteInVideoTable.cs</DependentUpon>
+    </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Tag.cs" />
     <Compile Include="Video.cs" />
   </ItemGroup>
   <ItemGroup>
@@ -94,7 +118,23 @@
     <EmbeddedResource Include="Migrations\202307171508200_AddClassificationSilverGoldPlatinumFromVideoTable.resx">
       <DependentUpon>202307171508200_AddClassificationSilverGoldPlatinumFromVideoTable.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\202308091518355_AlterColumnNameMaxLength255AndNotNuLLToVideoTable.resx">
+      <DependentUpon>202308091518355_AlterColumnNameMaxLength255AndNotNuLLToVideoTable.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\202308092211076_AlterColumnGender_IdToGenderIdInVideoTable.resx">
+      <DependentUpon>202308092211076_AlterColumnGender_IdToGenderIdInVideoTable.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\202308092253234_RenameColumnClassificationToclassificationInVideoTable.resx">
+      <DependentUpon>202308092253234_RenameColumnClassificationToclassificationInVideoTable.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\202308100456324_AlterColumnNameMaxLength255AndNotNullToGenreTable.resx">
+      <DependentUpon>202308100456324_AlterColumnNameMaxLength255AndNotNullToGenreTable.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\202308100504287_changeTypeClassificationIntToByteInVideoTable.resx">
+      <DependentUpon>202308100504287_changeTypeClassificationIntToByteInVideoTable.cs</DependentUpon>
+    </EmbeddedResource>
   </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <Target Name="EnsureNuGetPackageBuildImports" BeforeTargets="PrepareForBuild">
     <PropertyGroup>

@@ -6,12 +6,12 @@
     {
         public override void Up()
         {
-            AddColumn("dbo.Videos", "Classification", c => c.Int(nullable: false));
+            AddColumn("dbo.Videos", "classification", c => c.Int(nullable: false));
         }
 
         public override void Down()
         {
-            DropColumn("dbo.Videos", "Classification");
+            DropColumn("dbo.Videos", "classification");
         }
     }
 }
