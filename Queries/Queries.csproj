@@ -53,6 +53,7 @@
     <Compile Include="Cover.cs" />
     <Compile Include="EntityConfigurations\CourseConfiguration.cs" />
     <Compile Include="Linq\LinqExtensionMethod.cs" />
+    <Compile Include="Linq\LinqExtensionMethodAdditional.cs" />
     <Compile Include="Linq\LinqSyntax.cs" />
     <Compile Include="Migrations\201510010029257_InitialMigration.cs" />
     <Compile Include="Migrations\201510010029257_InitialMigration.Designer.cs">

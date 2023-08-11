@@ -7,8 +7,8 @@ namespace Queries
         private static void Main(string[] args)
         {
             // LinqSyntax.QueryGrouping();
-            
-            LinqExtensionMethod.LinqCrossJoin();
+            // LinqExtensionMethod.LinqCrossJoin();
+            LinqExtensionMethodAdditional.Aggregating();
 
             // Console.ReadKey();
         }
