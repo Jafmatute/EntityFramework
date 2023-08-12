@@ -26,5 +26,7 @@ namespace Queries
         public virtual ICollection<Tag> Tags { get; set; }
 
         public Cover Cover { get; set; }
+
+        public bool IsBeginnerCourse => Level == 1;
     }
 }

@@ -52,6 +52,7 @@
     <Compile Include="Course.cs" />
     <Compile Include="Cover.cs" />
     <Compile Include="EntityConfigurations\CourseConfiguration.cs" />
+    <Compile Include="Linq\DeferredExecution.cs" />
     <Compile Include="Linq\LinqExtensionMethod.cs" />
     <Compile Include="Linq\LinqExtensionMethodAdditional.cs" />
     <Compile Include="Linq\LinqSyntax.cs" />

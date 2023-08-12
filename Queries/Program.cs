@@ -8,8 +8,8 @@ namespace Queries
         {
             // LinqSyntax.QueryGrouping();
             // LinqExtensionMethod.LinqCrossJoin();
-            LinqExtensionMethodAdditional.Aggregating();
-
+            // LinqExtensionMethodAdditional.Aggregating();
+            DeferredExecution.ExecutionDb();
             // Console.ReadKey();
         }
     }
