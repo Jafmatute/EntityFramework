@@ -9,7 +9,8 @@ namespace Queries
             // LinqSyntax.QueryGrouping();
             // LinqExtensionMethod.LinqCrossJoin();
             // LinqExtensionMethodAdditional.Aggregating();
-            DeferredExecution.ExecutionDb();
+            // DeferredExecution.ExecutionDb();
+            IQueryableExplained.Iqueryable();
             // Console.ReadKey();
         }
     }
