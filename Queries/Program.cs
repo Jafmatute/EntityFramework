@@ -13,7 +13,8 @@ namespace Queries
             // IQueryableExplained.Iqueryable();
             
             /*LAZY LOADING*/
-            LazyLoading.Lazy();
+            //LazyLoading.Lazy();
+            Problem_N_Mas_1.Problem();
             
             // Console.ReadKey();
         }
