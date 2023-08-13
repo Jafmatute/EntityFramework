@@ -1,4 +1,4 @@
-﻿using Queries.Linq;
+﻿using Queries.LoadingRelatedObjects;
 
 namespace Queries
 {
@@ -10,7 +10,11 @@ namespace Queries
             // LinqExtensionMethod.LinqCrossJoin();
             // LinqExtensionMethodAdditional.Aggregating();
             // DeferredExecution.ExecutionDb();
-            IQueryableExplained.Iqueryable();
+            // IQueryableExplained.Iqueryable();
+            
+            /*LAZY LOADING*/
+            LazyLoading.Lazy();
+            
             // Console.ReadKey();
         }
     }

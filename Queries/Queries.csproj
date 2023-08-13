@@ -57,6 +57,7 @@
     <Compile Include="Linq\LinqExtensionMethod.cs" />
     <Compile Include="Linq\LinqExtensionMethodAdditional.cs" />
     <Compile Include="Linq\LinqSyntax.cs" />
+    <Compile Include="LoadingRelatedObjects\LazyLoading.cs" />
     <Compile Include="Migrations\201510010029257_InitialMigration.cs" />
     <Compile Include="Migrations\201510010029257_InitialMigration.Designer.cs">
       <DependentUpon>201510010029257_InitialMigration.cs</DependentUpon>
@@ -76,7 +77,6 @@
       <DependentUpon>201510010029257_InitialMigration.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
-  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
        Other similar extension points exist, see Microsoft.Common.targets.

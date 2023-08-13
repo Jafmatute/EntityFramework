@@ -21,10 +21,11 @@ namespace Queries.Linq
         
         public static void Example()
         {
-            IQueryable<Course> q;
+            IQueryable<Course> q = null;
             q.Where(c => c.Level == 1).OrderBy(c => c.Name);
-            
-            IEnumerable<Course> e;
+
+            IEnumerable<Course> e = null;
+            ;
             e.Where(c => c.Level == 1).OrderBy(c => c.Name);
 
         }
