@@ -12,10 +12,11 @@ namespace Queries
             // DeferredExecution.ExecutionDb();
             // IQueryableExplained.Iqueryable();
             
-            /*LAZY LOADING*/
+            /*Loading*/
             //LazyLoading.Lazy();
-            Problem_N_Mas_1.Problem();
-            
+            //Problem_N_Mas_1.Problem();
+            //EagerLoading.Eager();
+            ExplicitLoading.Explicit();
             // Console.ReadKey();
         }
     }
