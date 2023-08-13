@@ -57,6 +57,7 @@
     <Compile Include="Linq\LinqExtensionMethod.cs" />
     <Compile Include="Linq\LinqExtensionMethodAdditional.cs" />
     <Compile Include="Linq\LinqSyntax.cs" />
+    <Compile Include="LoadingRelatedObjects\EagerLoading.cs" />
     <Compile Include="LoadingRelatedObjects\LazyLoading.cs" />
     <Compile Include="LoadingRelatedObjects\Problem_N_Mas_1.cs" />
     <Compile Include="Migrations\201510010029257_InitialMigration.cs" />
