@@ -22,7 +22,8 @@ namespace Queries
             
             /*Objects add, update and remove*/
             //Add.AddObjectWpf();
-            Update.UpdateObject();
+            //Update.UpdateObject();
+            Delete.DeleteObjectCascadeDisable();
         }
     }
 }
