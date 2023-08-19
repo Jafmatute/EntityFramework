@@ -21,7 +21,8 @@ namespace Queries
             // Console.ReadKey();
             
             /*Objects add, update and remove*/
-            AddVideo.AddObjectWpf();
+            //Add.AddObjectWpf();
+            Update.UpdateObject();
         }
     }
 }

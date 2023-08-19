@@ -2,7 +2,7 @@
 
 namespace Queries.UpdatingData
 {
-    public static class AddVideo
+    public static class Add
     {
         public static PlutoContext Ctx { get; set; } = new PlutoContext();
 
