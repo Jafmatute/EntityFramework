@@ -1,4 +1,5 @@
 ﻿using Queries.LoadingRelatedObjects;
+using Queries.UpdatingData;
 
 namespace Queries
 {
@@ -16,8 +17,11 @@ namespace Queries
             //LazyLoading.Lazy();
             //Problem_N_Mas_1.Problem();
             //EagerLoading.Eager();
-            ExplicitLoading.Explicit();
+            //ExplicitLoading.Explicit();
             // Console.ReadKey();
+            
+            /*Objects add, update and remove*/
+            AddVideo.AddObjectWpf();
         }
     }
 }
