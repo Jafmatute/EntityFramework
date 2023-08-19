@@ -53,6 +53,7 @@
     <Compile Include="EntityTypeConfigurations\TagConfiguration.cs" />
     <Compile Include="EntityTypeConfigurations\VideoConfiguration.cs" />
     <Compile Include="Genre.cs" />
+    <Compile Include="LoadingRelatedObjects\LazyLoadingNotWorking.cs" />
     <Compile Include="Migrations\201510110310196_InitialModel.cs" />
     <Compile Include="Migrations\201510110310196_InitialModel.Designer.cs">
       <DependentUpon>201510110310196_InitialModel.cs</DependentUpon>

@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Linq;
+using Vidzy.LoadingRelatedObjects;
 using static Vidzy.Classification;
 
 namespace Vidzy
@@ -10,9 +11,11 @@ namespace Vidzy
 
         static void Main(string[] args)
         {
-            ListOfGenresAndNumberOfVideosSortedByNumber();
+            //ListOfGenresAndNumberOfVideosSortedByNumber();
+            
+            LazyLoadingNotWorking.LazyNotWorking();
 
-            Console.ReadKey();
+            //Console.ReadKey();
         }
 
         private static void ActionMoviesSortedByName()
