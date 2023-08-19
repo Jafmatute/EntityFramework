@@ -71,6 +71,7 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Tag.cs" />
     <Compile Include="UpdatingData\Add.cs" />
+    <Compile Include="UpdatingData\ChangeTracking.cs" />
     <Compile Include="UpdatingData\Delete.cs" />
     <Compile Include="UpdatingData\Update.cs" />
   </ItemGroup>
