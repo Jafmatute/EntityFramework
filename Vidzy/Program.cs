@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Linq;
 using Vidzy.LoadingRelatedObjects;
+using Vidzy.UpdatingData;
 using static Vidzy.Classification;
 
 namespace Vidzy
@@ -11,11 +12,32 @@ namespace Vidzy
 
         static void Main(string[] args)
         {
-            //ListOfGenresAndNumberOfVideosSortedByNumber();
+            //exercise 1
+            var video = new Video
+            {
+                Name = "Terminator 1",
+                ReleaseDate = new DateTime(1984,10,26),
+                GenreId = 2,
+                Classification = Classification.Silver
+            };
             
-            LazyLoadingNotWorking.LazyNotWorking();
-
-            //Console.ReadKey();
+            //ExecutingQueries.AddVideo(video);
+            
+            //exercise 2
+            //ExecutingQueries.AddTag("Drama", "classics");
+            
+            //exercise 3
+            //ExecutingQueries.AddTagsToVideo(1, "classics","drama", "comedy");
+            
+            //Exercise 4
+            //ExecutingQueries.RemoveTagFromVideo(1, "comedy");
+            
+            // Exercise 5
+            //ExecutingQueries.RemoveVideo(1);
+            
+            //Exercise 6
+            ExecutingQueries.RemoveGenre(2, enforceDeletingVideos: true);
+            
         }
 
         private static void ActionMoviesSortedByName()
